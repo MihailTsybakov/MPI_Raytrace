@@ -78,7 +78,8 @@ void raytrace(sphere S, scene sc, std::string save_to)
 		C.save(save_to);
 		delete[] total_pixels;
 	}
-
+	
+	std::cout << " Process [" << rank << "] finished." << std::endl;
 	delete[] R_channel;
 	MPI_Finalize();
 }
