@@ -1,1 +1,1 @@
-# MPI_Raytrace
+# Simple sphere raytracing with MPI parallelization
